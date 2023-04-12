@@ -1,0 +1,115 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #f9f5ec;
+}
+
+.body {
+  /* these aren't working ? */
+    background-color: #f9f5ec;
+    font-family: 'Abel', sans-serif;
+}
+.certificate-banner {
+    padding: 1rem;
+    color: #ffffff;
+    background: #ff9933;
+    font-family: 'Abel', sans-serif;
+}
+
+.name-banner {
+    background: #ffffff;
+    color: #0D4C92;
+    font-family: 'Abel', sans-serif;
+    /* color: blue; */
+}
+.name-banner h1,
+  .name-banner h2 {
+    white-space: nowrap;
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    max-width: 100%;
+  }
+
+  .name-banner img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .name-banner .col-md-3:first-of-type {
+    text-align: right;
+
+  }
+
+  .name-banner .col-md-3:last-of-type {
+    text-align: left;
+  }
+
+.navbar {
+    background-color: #34ad54;
+    font-family: 'Abel', sans-serif;
+}
+
+.carousel {
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+  display: flex;
+}
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.query-form {
+  /* max-width: 30rem; */
+  background-color: #ff9933;
+}
+.academics {
+  /* background: #34ad54; */
+  color: #f9f5ec;
+}
+
+.gallery {
+  text-align: center;
+}
+.gallery a {
+  color: #0D4C92;
+  font-size: large;
+}
+
+.quick-links {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  background: transparent;
+
+}
+.card {
+  align-items: center;
+  /* background-color: #ff9933; */
+  color: #ff9933;
+}
+.column-message {
+  background-color: #ff9933;
+}
+
+/* .image-message {
+  z-index: 0;
+}
+.image-text {
+  font-weight: bolder;
+  z-index: 1;
+  margin-top: -100px;
+} */
+
+.custom-footer {
+  font-family: 'Abel', sans-serif;
+  /* font-weight: 600; */
+    padding: 3rem;
+    color: #ffffff;
+    background: #0D4C92;
+}
